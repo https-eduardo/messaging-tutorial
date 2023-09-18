@@ -1,8 +1,8 @@
 import pika
 import pyqrcode
 
-QUEUE = 'qr_code_queue'
-EXCHANGE = 'pix_exchanges'
+QUEUE = 'pix_queue'
+EXCHANGE = 'qr_code_exchange'
 
 connection_parameters = pika.ConnectionParameters(
     host="localhost",
